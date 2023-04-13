@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(10, 10, 131); text-decoration: none;}
+
+.logo{
+    width: 5px;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #240707;
+}
+figure {
+    text-align: center;
+    margin: 0 auto;
+}
+figure, img{
+    width: 300px;
+}
+.table_link{
+    font-style: italic;
+}
+.table_series, th, tr, td{
+    border: solid 1px rgb(190, 189, 189);
+    border-collapse: collapse;
+    margin: 30px 0;
+    text-align: center;
+    padding: 10px;
+}
+.number_01 {
+    background-color: rgb(0, 71, 62);
+    width: 1rem;
+} 
+.number_02 {
+    background-color: rgb(243, 148, 5);
+} 
+.number_03 {
+    background-color: rgb(101, 104, 103);
+} 
+.number_04 {
+    background-color: rgb(21, 22, 22);
+} 
+.number_05 {
+    background-color: #964B00;
+} 
+.number_06 {
+    background-color: rgb(51, 50, 65);
+} 
+.number_07 {
+    background-color: rgb(0, 7, 6);
+} 
+.number_08 {
+    background-color: rgb(62, 161, 228);
+} 
+.movie{
+    margin: 0 auto;
+    padding: 20px;
+}
+.movie iframe{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.movie__title{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.movie__title strong{
+    color: red;
+}
+
+.ul__text {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+.ul__termos {
+    display: flex;
+    justify-content: start;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ul__termos li {
+    margin-left: 20px;
+    padding: 10px 0;
+}
